@@ -3,6 +3,8 @@ layout: post
 title: "Git for Beginners Series - (Part 1) Creating your first repository"
 ---
 
+![header-image01](/images/2020-5-24/header-image01.jpg)
+
 > Have you heard of the tool Git?
 > Of course you have!
 > But why are you here?
