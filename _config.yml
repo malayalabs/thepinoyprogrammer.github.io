@@ -6,7 +6,7 @@
 name: Pinoy Programmer
 
 # Short bio or description (displayed in the header)
-description: Online learning blog for the Pinoy Programmer!
+description: "Online learning blog for the Pinoy Programmer"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/logo.png
@@ -19,7 +19,7 @@ avatar: /images/logo.png
 footer-links:
   dribbble:
   email: thepinoyprogrammer@protonmail.com
-  facebook:
+  facebook: Pinoy-Programmer-114131426977819
   flickr:
   github: thepinoyprogrammer/thepinoyprogrammer.github.io
   instagram: thepinoyprogrammer
