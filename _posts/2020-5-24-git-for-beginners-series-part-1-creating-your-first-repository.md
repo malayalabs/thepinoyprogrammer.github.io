@@ -3,7 +3,7 @@ layout: post
 title: "Git for Beginners Series - (Part 1) Creating your first repository"
 ---
 
-![header-image01](/assets/posts/2020-5-24-git-for-beginners-series-part-1-creating-your-first-repository/header-image01.png)
+![header-image](/assets/posts/2020-5-24-git-for-beginners-series-part-1-creating-your-first-repository/header-image.png)
 
 > Have you heard of the tool Git?
 > Of course you have!

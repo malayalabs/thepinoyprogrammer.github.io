@@ -3,6 +3,8 @@ layout: post
 title: Build a containerized LAMP stack using Podman
 ---
 
+![header-image](/assets/posts/2020-5-22-setting-up-a-containerized-lamp-stack-using-podman/header-image.png)
+
 *Disclaimer: I am not going to going into detail about what is Podman or why use it as an alternative container engine. I will link references below so you can learn more about Podman in detail.*
 
 ### References
