@@ -91,7 +91,7 @@ Notice we are adding `--pod` when running the container above. That simply instr
 
 Now try visiting `http://localhost:8080` and you should see something like this:
 
-![screenshot-01](/images/2020-5-22/screenshot-01.jpg)
+![screenshot-01](/assets/posts/2020-5-22-setting-up-a-containerized-lamp-stack-using-podman/screenshot-01.jpg)
 
 ### STEP 4: Running MySQL 8
 
@@ -119,7 +119,7 @@ echo 'Connected to the database successfully';
 
 So far, so good. Now navigate to `http://localhost:8080` and you should see this:
 
-![screenshot-02](/images/2020-5-22/screenshot-02.jpg)
+![screenshot-02](/assets/posts/2020-5-22-setting-up-a-containerized-lamp-stack-using-podman/screenshot-02.jpg)
 
 Great job! Now you've just created a LAMP stack container without using Docker.
 

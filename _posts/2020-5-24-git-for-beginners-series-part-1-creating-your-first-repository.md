@@ -3,7 +3,7 @@ layout: post
 title: "Git for Beginners Series - (Part 1) Creating your first repository"
 ---
 
-![header-image01](https://drive.google.com/file/d/1fQX0cWFgq_ZawsKGkdZqTIpOgRrEGCJj/view?usp=sharing)
+![header-image01](/assets/posts/2020-5-24-git-for-beginners-series-part-1-creating-your-first-repository/header-image01.png)
 
 > Have you heard of the tool Git?
 > Of course you have!
@@ -95,7 +95,7 @@ After adding that file, try running:
 git status
 ```
 
-![image01](/images/2020-5-24/image01.png)
+![image01](/assets/posts/2020-5-24-git-for-beginners-series-part-1-creating-your-first-repository/image01.png)
 
 It should show you `file.txt` under **Untracked files** section. `Git` is basically saying that you have 1 file (`file.txt`) that you have modified or created in your folder (this usually highlighted in red). When doing `git status`, it will show you the current files that are either added or modified in your `git` repo. This all will make sense later once we add and commit changes to the repository.
 
@@ -105,7 +105,7 @@ Now let's add our file:
 git add file.txt
 ```
 
-![image02](/images/2020-5-24/image02.png)
+![image02](/assets/posts/2020-5-24-git-for-beginners-series-part-1-creating-your-first-repository/image02.png)
 
 Let's run `git status` once again to see changes made to the repo. Now you should see that `file.txt` is under **Changes to be commited**. This means that the files you added using `git add` are ready to be commited to your repository.
 
@@ -139,11 +139,11 @@ So far, if we are playing a video game right now, we have saved our progress in 
 
   - On the top right corner of the screen, click the '+' sign then choose 'New repository':
 
-    ![image03](/images/2020-5-24/image03.png)
+    ![image03](/assets/posts/2020-5-24-git-for-beginners-series-part-1-creating-your-first-repository/image03.png)
 
   - Enter repository name:
 
-    ![image04](/images/2020-5-24/image04.png)
+    ![image04](/assets/posts/2020-5-24-git-for-beginners-series-part-1-creating-your-first-repository/image04.png)
 
   - Click the 'Create repository' button
 
@@ -151,11 +151,11 @@ So far, if we are playing a video game right now, we have saved our progress in 
 
   After creating your new empty repository, you should see a screen like this:
 
-  ![image05.png](/images/2020-5-24/image05.png)
+  ![image05.png](/assets/posts/2020-5-24-git-for-beginners-series-part-1-creating-your-first-repository/image05.png)
 
   Choose the 2nd option where it says *'...push an existing repository from the command line'*
 
-  ![image06.png](/images/2020-5-24/image06.png)
+  ![image06.png](/assets/posts/2020-5-24-git-for-beginners-series-part-1-creating-your-first-repository/image06.png)
 
   ***Note: Make sure you are inside your project folder where you have initialized your git repository***
 
