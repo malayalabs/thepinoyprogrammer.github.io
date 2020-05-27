@@ -56,7 +56,7 @@ $ brew install git
 
 ### Basics
 
-**NOTE:** In this basic tutorial, I recommend that you use <a href="https://stackoverflow.com/questions/17807485/what-is-the-exact-meaning-of-git-bash" target="_blank">Git Bash</a> if you're on Windows or just use the <a href="https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal" target="_blank">Terminal</a> if you're on Linux.
+**NOTE:** In this basic tutorial, I recommend that you use <a href="https://stackoverflow.com/questions/17807485/what-is-the-exact-meaning-of-git-bash" target="_blank">Git Bash</a> if you're on Windows or just use the Terminal if you're on Linux or Mac.
 
 <b>1) Initializing a <a href="https://www.quora.com/What-is-the-meaning-of-%E2%80%98Git-repository%E2%80%99" target="_blank">git repository</a> in your local computer</b>
 
