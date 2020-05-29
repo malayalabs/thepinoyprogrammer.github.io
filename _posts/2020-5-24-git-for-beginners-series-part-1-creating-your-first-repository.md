@@ -109,6 +109,19 @@ git add file.txt
 
 Let's run `git status` once again to see changes made to the repo. Now you should see that `file.txt` is under **Changes to be commited**. This means that the files you added using `git add` are ready to be commited to your repository.
 
+Now let's commit (save) the changes we made (file.txt) into our local git repository:
+
+```bash
+git commit -m "added file.txt"
+```
+
+The `-m` parameter in the `git commit` command accepts a message (mandatory) that describes what changes you made to the repository. Think of this as the 'title' when save your video game progress.
+
+For example, you made some changes to your repo by deleting a file. You might run the command: `git commit -m "deleted a .txt file"`. Just make sure that your commit message is descriptive and easy to understand at a glance so that when other developers jump in and collaborate with you on a project, they won't have a hard time figuring out what changes happened to the repository. Also, make sure your commit message matches what you've actually changed in the repository, you might delete
+a bunch of files but write a different commit message and that would very much cause confusion to other developers working on the project. Keep it simple and accurate.
+
+<br />
+
 *Now, you might ask what is the difference between `git add` and `git commit`?*
 
 > **git add** is a command for marking files that are ready to be commited to your repository. This might be useful when you have multiple changes on your files but are not ready to commit them all. Which leaves us to the next definition...
@@ -125,7 +138,7 @@ That's looks great right? Now on the next steps you're going to learn how to set
 
 <br />
 
-**3) Creating a GitHub repository**
+### 3) Create a GitHub repository
 
 So far, if we are playing a video game right now, we have saved our progress in our local computer. But what if your hard drive gets corrupted or some unfortunate event caused your progress to be deleted? (let's not wish or think about it lol) You better be ready for the worst. So what do we do now?
 
@@ -147,7 +160,9 @@ So far, if we are playing a video game right now, we have saved our progress in 
 
   - Click the 'Create repository' button
 
-- Clone repository
+<br />
+
+**4) Clone repository**
 
   After creating your new empty repository, you should see a screen like this:
 
@@ -159,10 +174,64 @@ So far, if we are playing a video game right now, we have saved our progress in 
 
   ***Note: Make sure you are inside your project folder where you have initialized your git repository***
 
+  In your project folder, type the following commands:
+
+  ```bash
+  git remote add origin https://github.com/<your-github-username>/<your-github-repository-name>.git
+  git push -u origin master
+  ```
+
+  *Make sure to replace `<your-github-username>` and `<your-github-repository>` accordingly.*
+
+  The command above tells git to push/publish your local source code to the remote repository (github). After that, you should see the file contents of your local repository on `https://github.com/<your-github-username>/<your-repository-name>.git`.
+
+<br />
+
+### Summary
+
+1) Create a new project folder
+
+```bash
+mkdir my-project-folder
+```
+
+2) Initialize a local git repository in your project folder
+
+```bash
+cd my-project-folder
+git init
+```
+
+3) Add a file
+
+```bash
+touch file.txt
+```
+
+4) Commit file to local git repository
+
+```bash
+git add .
+git commit -m "added file.txt"
+```
+
+*The dot ``.`` in the `git add` command above tells git to add all files in the current folder.*
+
+5) [Create a GitHub repository](#3-create-a-github-repository)
+
+6) Clone your repository (link github repository to your local repository)
+
+```bash
+git remote add origin https://github.com/<your-github-username>/<your-github-repository-name>.git
+git push -u origin master
+```
+
+That's it! Congratulations on creating your first GitHub repository. In Part 2 of this series, we will teach you the basic git commands you need to know to interact with Git and GitHub. Our goal is to help you master the basics so you can start working with git on your next project or even work with other developers on an existing project. And like any other skill, you will get better through time and practice. Stay tuned!
+
 <br />
 
 *Feel free to contact us at [thepinoyprogrammer@protonmail.com](mailto:thepinoyprogrammer@protonmail.com) if you have further questions.*
 
 <br />
 
-### Next: Git Fundamentals - (Part 2) Push and Pull from your GitHub repository
+### Next: Git Fundamentals - (Part 2) Interacting with Git and GitHub
