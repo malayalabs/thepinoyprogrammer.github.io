@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git for Beginners Series - (Part 1) Creating your first repository"
+title: "Git for Beginners: Creating your first repository"
 ---
 
 ![header-image](/assets/posts/2020-5-24-git-for-beginners-series-part-1-creating-your-first-repository/header-image.png)
@@ -226,12 +226,10 @@ git remote add origin https://github.com/<your-github-username>/<your-github-rep
 git push -u origin master
 ```
 
-That's it! Congratulations on creating your first GitHub repository. In Part 2 of this series, we will teach you the basic git commands you need to know to interact with Git and GitHub. Our goal is to help you master the basics so you can start working with git on your next project or even work with other developers on an existing project. And like any other skill, you will get better through time and practice. Stay tuned!
+That's it! Congratulations on creating your first GitHub repository. Keep practicing until you master the basics so you can start working with git on your next project or even work with other developers on an existing project. And like any other skill, you will get better through time and practice.
 
 <br />
 
 *Feel free to contact us at [thepinoyprogrammer@protonmail.com](mailto:thepinoyprogrammer@protonmail.com) if you have further questions.*
 
 <br />
-
-### Next: Git Fundamentals - (Part 2) Interacting with Git and GitHub
