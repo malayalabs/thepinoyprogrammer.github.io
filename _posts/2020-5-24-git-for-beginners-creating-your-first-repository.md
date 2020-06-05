@@ -228,6 +228,11 @@ git push -u origin master
 
 That's it! Congratulations on creating your first GitHub repository. Keep practicing until you master the basics so you can start working with git on your next project or even work with other developers on an existing project. And like any other skill, you will get better through time and practice.
 
+If you want to learn more and practice with git command, I highly recommend you check out the links below:
+
+- [git - the simple guide](https://rogerdudler.github.io/git-guide)
+- [Learn the Basics of Git in Under 10 Minutes](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91)
+
 <br />
 
 *Feel free to contact us at [thepinoyprogrammer@protonmail.com](mailto:thepinoyprogrammer@protonmail.com) if you have further questions.*
