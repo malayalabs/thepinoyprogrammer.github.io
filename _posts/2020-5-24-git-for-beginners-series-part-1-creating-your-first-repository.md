@@ -142,7 +142,7 @@ That's looks great right? Now on the next steps you're going to learn how to set
 
 So far, if we are playing a video game right now, we have saved our progress in our local computer. But what if your hard drive gets corrupted or some unfortunate event caused your progress to be deleted? (let's not wish or think about it lol) You better be ready for the worst. So what do we do now?
 
-<a href="https://github.com" target="_blank">GitHub</a> to the rescue! GitHub is a simply a platform for uploading/downloading git repositories. It makes it easy for you to push your changes to the cloud. And it's FREE to register an account and create unlimited repositories.
+<a href="https://github.com" target="_blank">GitHub</a> to the rescue! GitHub is a hosting platform for downloading and publishing git repositories in the cloud. You can also collaborate with other developers and contribute to open source projects. It's totally FREE to register an account and create unlimited repositories.
 
 **Steps on how to create a GitHub repository:**
 
