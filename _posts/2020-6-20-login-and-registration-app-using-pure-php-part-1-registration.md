@@ -5,7 +5,7 @@ title: "Login and registration app using pure PHP - Part 1: Registration"
 
 Have you ever wondered how you can write a login and registration feature using pure PHP? That's right! No server, no database, just plain old PHP. 
 
-In this tutorial, we'll be focusing on the coding part on the PHP side without messing with the server. We'll cover the server aspect of this code in another tutorial. My goal is to get you writing PHP code and not worrying on server or db setup.
+In this tutorial, we'll be focusing on the coding part on the PHP side with a minimalist setup. We'll cover the webserver topic in another tutorial. My goal is to get you writing PHP code and not worrying on server or db setup.
 
 > ***Disclaimer:** PHP's built-in web server was designed to aid application development. It may also be useful for testing purposes or for application demonstrations that are run in controlled environments. It is not intended to be a full-featured web server. It should not be used on a public network.* 
 For more info visit:
